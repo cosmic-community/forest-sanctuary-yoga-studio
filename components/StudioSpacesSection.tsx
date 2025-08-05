@@ -55,7 +55,7 @@ export default function StudioSpacesSection({ spaces }: StudioSpacesSectionProps
               <div className="grid lg:grid-cols-2 gap-0">
                 {/* Images */}
                 <div className="relative">
-                  {space.metadata?.space_images && space.metadata.space_images.length > 0 && (
+                  {space.metadata?.space_images && space.metadata.space_images.length > 0 && space.metadata.space_images[0] && (
                     <div className="h-64 lg:h-80">
                       <img
                         src={`${space.metadata.space_images[0].imgix_url}?w=800&h=600&fit=crop&auto=format,compress`}
