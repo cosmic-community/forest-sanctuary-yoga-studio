@@ -7,6 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        // Define border color properly
+        border: 'hsl(var(--border))',
         // Studio Ghibli inspired color palette
         forest: {
           50: '#f0f9f0',

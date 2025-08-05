@@ -4,6 +4,7 @@
 
 @layer base {
   :root {
+    --border: 214.3 31.8% 91.4%;
     --forest: 46 100% 20%;
     --sage: 140 20% 40%;
     --sky: 200 100% 70%;
@@ -12,7 +13,7 @@
   }
 
   * {
-    @apply border-border;
+    @apply border-sage-200;
   }
 
   body {
