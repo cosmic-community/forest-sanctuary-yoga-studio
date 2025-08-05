@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import BackButton from '@/components/BackButton'
 
 export default function NotFound() {
   return (
@@ -38,12 +39,7 @@ export default function NotFound() {
           <Link href="/" className="btn-magical text-center">
             Return Home
           </Link>
-          <button
-            onClick={() => window.history.back()}
-            className="btn-ghost"
-          >
-            Go Back
-          </button>
+          <BackButton />
         </div>
 
         {/* Peaceful Quote */}
